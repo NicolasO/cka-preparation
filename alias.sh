@@ -12,3 +12,13 @@ alias kdp="kd pods"
 alias kdd="kd deployment"
 alias krun="k run --generator=run-pod/v1"
 export do="--dry-run -o yaml"
+
+
+alias oc=kubectl
+alias k=kubectl
+alias kn="k get node -o wide"
+alias ka="k get all -o wide"
+alias kaa="ka --all-namespaces"
+alias kd="k describe"
+alias krun="k run --generator=run-pod/v1"
+export do="--dry-run -o yaml"
