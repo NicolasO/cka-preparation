@@ -9,7 +9,7 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permane
 alias k=kubectl
 complete -F __start_kubectl k
 
-## As I'M openshift user, I am use to play with oc cli so I'm doin the same with oc 
+## As I'M openshift user, I am used to play with oc cli so I'm doin the same with oc 
 alias oc=kubectl
 complete -F __start_kubectl oc
 
