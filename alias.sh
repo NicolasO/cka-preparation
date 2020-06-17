@@ -24,13 +24,13 @@ alias kd="k describe"
 alias kc="k create -f"
 
 ## these are link to udemy labs as the K8S version still in 1.16
-alias krun="k run --generator=run-pod/v1"
-export do="--dry-run -o yaml"
+#alias krun="k run --generator=run-pod/v1"
+#export do="--dry-run -o yaml"
 
 ## NOTE IMPORTANT :
 ## As the certification is now in 1.18 I used : 
-#alias krun="k run" # you can skip this one - I kept it because I like to use krun :)
-#export do="--dry-run=client -o yaml" # you should add the =client at the end
+alias krun="k run" # you can skip this one - I kept it because I like to use krun :)
+export do="--dry-run=client -o yaml" # you should add the =client at the end
 
 
 #the nice to have 
