@@ -39,3 +39,4 @@ alias kname="k get namespace -o wide"
 alias kdep="k get deployment -o wide"
 alias kdp="kd pods"
 
+echo "set ai et ts=2 sts=2 sw=2 cursorcolumn number" > ~/.vimrc
